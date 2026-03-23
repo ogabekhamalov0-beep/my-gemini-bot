@@ -47,3 +47,7 @@ async def main():
 if __name__ == "__main__":
     asyncio.run(main())
     
+@dp.message()
+async def handle_message(message: types.Message):
+    await message.answer("Men ishlayapman! Gemini AI bilan bog'lanishda muammo bo'lishi mumkin.")
+    
