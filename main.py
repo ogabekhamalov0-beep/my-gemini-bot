@@ -26,7 +26,7 @@ async def chat(message: types.Message):
     # Yaratuvchi haqidagi savolga maxsus javob
     if any(soz in text for soz in ["kim yaratgan", "kim yasagan", "muallif", "egasi kim"]):
         await message.answer("Meni **Ogʻabek Hamalov** yaratgan! 😎")
-        return
+        return 
 
     try:
         await bot.send_chat_action(message.chat.id, "typing")
