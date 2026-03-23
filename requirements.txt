@@ -1,3 +1,4 @@
 aiogram==2.23.1
 google-generativeai
-aiohttp
+aiohttp==3.8.5
+attrs==22.2.0
